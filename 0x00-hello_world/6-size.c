@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*Prints size of computer*/
+/**
+ * main - Prints "size of computer
+ *Return: Always 0
+*/
 int main (void)
 {
 	printf("Size of char: %d byte(s)\n", sizeof(char));
