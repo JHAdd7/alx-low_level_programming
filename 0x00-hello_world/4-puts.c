@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* Printing using puts */
+/** main - prints usings puts*/
+ /*"Programming is like building a multilingual puzzle"*/
+/* return 0 */
 int main(void)
 {puts("\"Programming is like building a multilingual puzzle");
 return (0);
