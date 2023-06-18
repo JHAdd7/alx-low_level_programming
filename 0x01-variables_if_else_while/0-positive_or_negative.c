@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- *main - determin if n is positive, negative or zero.
-*Return = Always 0
+/**
+ * main - determines if n is positive, negative or zero.
+ * Return: Always 0 (success)
 */
 int main(void)
 {
@@ -14,15 +14,15 @@ int main(void)
 	/* your code goes there */
 	if (n < 0)
 	{
-		printf("%d is %s", n, "negative");
+		printf("%d is %s\n", n, "negative");
 	}
 	else if (n > 0)
 	{
-		printf("%d is %s", n, "positive");
+		printf("%d is %s\n", n, "positive");
 	}
 	else
 	{
-		printf("%d is %s", n, "zero");
+		printf("%d is %s\n", n, "zero");
 	}
 
 	return (0);
